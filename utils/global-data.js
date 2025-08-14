@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Wolfpack, welcome';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'San Ramon Valley High School';
+    : 'San Ramon Valley High School\nB205 07:30-16:00 M-F\nMake It Happen';
 
   return {
     name,
